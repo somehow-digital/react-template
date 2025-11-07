@@ -32,7 +32,7 @@ importers:
         version: 3.0.0(typescript@5.9.3)
       '@somehow-digital/unocss-preset':
         specifier: ^2.1.0
-        version: 2.1.0(unocss@66.5.5(postcss@8.5.6)(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)))
+        version: 2.1.0(unocss@66.5.5(postcss@8.5.6)(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)))
       '@types/react':
         specifier: ^19.1.8
         version: 19.2.2
@@ -41,7 +41,7 @@ importers:
         version: 19.2.2(@types/react@19.2.2)
       '@vitejs/plugin-react':
         specifier: ^5.0.0
-        version: 5.1.0(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
+        version: 5.1.0(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
       concurrently:
         specifier: ^9.1.0
         version: 9.2.1
@@ -65,10 +65,10 @@ importers:
         version: 5.9.3
       unocss:
         specifier: ^66.3.3
-        version: 66.5.5(postcss@8.5.6)(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
+        version: 66.5.5(postcss@8.5.6)(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
       vite:
         specifier: ^7.0.4
-        version: 7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
+        version: 7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
 
 packages:
 
@@ -3087,8 +3087,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@7.2.1:
-    resolution: {integrity: sha512-qTl3VF7BvOupTR85Zc561sPEgxyUSNSvTQ9fit7DEMP7yPgvvIGm5Zfa1dOM+kOwWGNviK9uFM9ra77+OjK7lQ==}
+  vite@7.2.2:
+    resolution: {integrity: sha512-BxAKBWmIbrDgrokdGZH1IgkIk/5mMHDreLDmCJ0qpyJaAteP8NvMhkwr/ZCQNqNH97bw/dANTE9PDzqwJghfMQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4278,9 +4278,9 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  '@somehow-digital/unocss-preset@2.1.0(unocss@66.5.5(postcss@8.5.6)(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)))':
+  '@somehow-digital/unocss-preset@2.1.0(unocss@66.5.5(postcss@8.5.6)(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)))':
     dependencies:
-      unocss: 66.5.5(postcss@8.5.6)(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
+      unocss: 66.5.5(postcss@8.5.6)(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
 
   '@stylistic/eslint-plugin@5.5.0(eslint@9.39.1(jiti@2.6.1))':
     dependencies:
@@ -4443,13 +4443,13 @@ snapshots:
       '@typescript-eslint/types': 8.46.2
       eslint-visitor-keys: 4.2.1
 
-  '@unocss/astro@66.5.5(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
+  '@unocss/astro@66.5.5(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
     dependencies:
       '@unocss/core': 66.5.5
       '@unocss/reset': 66.5.5
-      '@unocss/vite': 66.5.5(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
+      '@unocss/vite': 66.5.5(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
     optionalDependencies:
-      vite: 7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
 
   '@unocss/cli@66.5.5':
     dependencies:
@@ -4604,7 +4604,7 @@ snapshots:
     dependencies:
       '@unocss/core': 66.5.5
 
-  '@unocss/vite@66.5.5(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
+  '@unocss/vite@66.5.5(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@unocss/config': 66.5.5
@@ -4615,9 +4615,9 @@ snapshots:
       pathe: 2.0.3
       tinyglobby: 0.2.15
       unplugin-utils: 0.3.1
-      vite: 7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
 
-  '@vitejs/plugin-react@5.1.0(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
+  '@vitejs/plugin-react@5.1.0(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
@@ -4625,7 +4625,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.43
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -6656,9 +6656,9 @@ snapshots:
       unist-util-is: 6.0.1
       unist-util-visit-parents: 6.0.2
 
-  unocss@66.5.5(postcss@8.5.6)(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)):
+  unocss@66.5.5(postcss@8.5.6)(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)):
     dependencies:
-      '@unocss/astro': 66.5.5(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
+      '@unocss/astro': 66.5.5(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
       '@unocss/cli': 66.5.5
       '@unocss/core': 66.5.5
       '@unocss/postcss': 66.5.5(postcss@8.5.6)
@@ -6676,9 +6676,9 @@ snapshots:
       '@unocss/transformer-compile-class': 66.5.5
       '@unocss/transformer-directives': 66.5.5
       '@unocss/transformer-variant-group': 66.5.5
-      '@unocss/vite': 66.5.5(vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
+      '@unocss/vite': 66.5.5(vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1))
     optionalDependencies:
-      vite: 7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - postcss
       - supports-color
@@ -6700,7 +6700,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.2.1(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1):
+  vite@7.2.2(@types/node@24.9.1)(jiti@2.6.1)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
