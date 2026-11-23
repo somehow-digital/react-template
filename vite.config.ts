@@ -9,8 +9,10 @@ export default defineConfig({
 	],
 	staged: {
 		'**/*.*': [
-			'eslint',
-			'cspell --no-progress --no-must-find-files',
+			[
+				'eslint',
+				'cspell --no-progress --no-must-find-files',
+			],
 		],
 	},
 });
