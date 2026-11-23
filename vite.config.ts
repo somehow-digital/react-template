@@ -3,7 +3,10 @@ import unocss from 'unocss/vite';
 import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
-	plugins: [react(), unocss()],
+	plugins: [
+		react(),
+		unocss(),
+	],
 	staged: {
 		'**/*.*': [
 			'eslint',
